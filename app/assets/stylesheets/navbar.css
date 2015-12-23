@@ -3,27 +3,75 @@
   float: left;
 }
 
+#left_nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 #right_nav {
   display: inline;
   float: right;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+#right_nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+  background-color: #111;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  margin-left: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Bangers';
+}
+
+.photo {
+  background: white;
+  margin-left: -1em;
+  margin-right: -0.5em;
+  height: 25em;
+  background-image: url("tester1.png");
+  background-attachment: fixed;
+  padding: 8em 15em;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.photo1 {
+  background: white;
+  margin-left: -1em;
+  margin-right: -0.5em;
+  height: 25em;
+  background-image: url("tester2.jpg");
+  background-attachment: fixed;
+  padding: 8em 15em;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.photo2 {
+  background: white;
+  margin-left: -1em;
+  margin-right: -0.5em;
+  height: 25em;
+  background-image: url("tester3.jpg");
+  background-attachment: fixed;
+  padding: 8em 15em;
+  background-size: cover;
+  background-repeat: no-repeat; 
 }
