@@ -1,0 +1,35 @@
+.photo {
+  background: black;
+  margin-left: -1em;
+  margin-right: -0.5em;
+  height: 25em;
+  background-image: url("tester1.jpg");
+  background-attachment: fixed;
+  padding: 8em 15em;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.photo1 {
+  background: black;
+  margin-left: -1em;
+  margin-right: -0.5em;
+  height: 25em;
+  background-image: url("tester2.jpg");
+  background-attachment: fixed;
+  padding: 8em 15em;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.photo2 {
+  background: black;
+  margin-left: -1em;
+  margin-right: -0.5em;
+  height: 25em;
+  background-image: url("tester3.jpg");
+  background-attachment: fixed;
+  padding: 8em 15em;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
