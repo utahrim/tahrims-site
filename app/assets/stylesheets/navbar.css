@@ -64,7 +64,7 @@ li a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: 'Patrick Hand SC';
+  font-family: 'Cinzel';
 }
 
 .navbar a{
@@ -73,7 +73,7 @@ li a:hover {
 
 .scrolling {
   color: black;
-  font-family: 'Patrick Hand SC';
+  font-family: 'Cinzel';
   background-color: white;
   z-index: 1;
   -webkit-transition: background-color 0.5s;
