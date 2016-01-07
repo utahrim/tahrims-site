@@ -14,10 +14,37 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 50) {
+    if (scroll >= 7) {
       $(".navbar").addClass("scrolling");
     } else {
       $(".navbar").removeClass("scrolling")
+    }
+  })
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 8 && scroll < 664 ) {
+      $("#right_nav_about").addClass("active");
+    } else {
+      $("#right_nav_about").removeClass("active")
+    }
+  })
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 664 && scroll < 1320 ) {
+      $("#right_nav_projects").addClass("active");
+    } else {
+      $("#right_nav_projects").removeClass("active")
+    }
+  })
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 1320 ) {
+      $("#right_nav_contact").addClass("active");
+    } else {
+      $("#right_nav_contact").removeClass("active")
     }
   })
 

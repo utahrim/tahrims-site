@@ -46,6 +46,9 @@
   text-decoration: none;
 }
 
+.active{
+  background-color: #CDCDF9;
+}
 
 li a:hover {
   background-color: #111;
