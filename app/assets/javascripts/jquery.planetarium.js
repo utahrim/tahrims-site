@@ -111,8 +111,8 @@
       
       // Apply width, height, breathable air, weather forecast and tilted the planet
       el2.find(".ptr-planet").css({
-        "margin-top": "0.3em",
-        "margin-left": "11.6em",
+        "margin-top": "0.35em",
+        "margin-left": "11.7em",
         width: "10.5em",
         height: "10.5em",
         "box-shadow": glow,
