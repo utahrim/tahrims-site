@@ -17,7 +17,7 @@
 
   var defaults = {
     autospin: "500ms",
-    angle: "20deg",
+    angle: "0deg",
     glow: "rgba(255, 255, 255, 0.34902) 0px 0px 50px, inset 33px 20px 50px rgba(0,0,0,0.5)",
     size: "100x100",
     float: true,
