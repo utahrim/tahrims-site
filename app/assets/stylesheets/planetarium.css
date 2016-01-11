@@ -20,7 +20,7 @@
 }
 
 .ptr-space {
-  background: url("texture-earth.jpg") repeat;
+  background: black;
 }
 
 .ptr-shape {
@@ -37,19 +37,19 @@
 
 @-webkit-keyframes float{
     from {-webkit-transform:translate(0, 0px);}
-    65% {-webkit-transform:translate(0, 15px);}
+    65% {-webkit-transform:translate(0, 0px);}
     to {-webkit-transform: translate(0, -0px);}    
 }
 
 @-moz-keyframes float{
     from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 15px);}
+    65% {-moz-transform:translate(0, 0px);}
     to {-moz-transform: translate(0, -0px);}    
 }
 
 @keyframes float{
     from {transform:translate(0, 0px);}
-    65% {transform:translate(0, 15px);}
+    65% {transform:translate(0, 0px);}
     to {transform: translate(0, -0px);}    
 }
 

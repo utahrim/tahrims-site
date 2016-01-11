@@ -14,9 +14,9 @@
  * ========================================================== */
 
 !function($){
-  
+
   var defaults = {
-    autospin: "1000ms",
+    autospin: "500ms",
     angle: "20deg",
     glow: "rgba(255, 255, 255, 0.34902) 0px 0px 50px, inset 33px 20px 50px rgba(0,0,0,0.5)",
     size: "100x100",
@@ -70,7 +70,6 @@
     
     el.each(function( index, value ) {
       var el2 = $(this);
-      
       // Set predefined markup options
       var autospin = el2.data("ptr-autospin")  || settings.autospin,
           angle = el2.data("ptr-angle")  || settings.angle,
@@ -82,7 +81,6 @@
           ringcolor = el2.data("ptr-ringcolor")  || settings.ringColor,
           ringangle = el2.data("ptr-ringangle")  || settings.ringAngle,
           dimension = newsize.split("x");
-      
       
       
       // Create Space and Time    
@@ -113,8 +111,10 @@
       
       // Apply width, height, breathable air, weather forecast and tilted the planet
       el2.find(".ptr-planet").css({
-        width: dimension[0],
-        height: dimension[1],
+        "margin-top": "0.3em",
+        "margin-left": "11.6em",
+        width: "10.5em",
+        height: "10.5em",
         "box-shadow": glow,
         "background-size": "cover",
         "-moz-background-size": "cover",
