@@ -1,13 +1,13 @@
 $(document).ready(function(){
-  $("#right_nav_about a").on("click", function(){
+  $("#right_nav_about a").click(function(){
     $('body').animate({
       scrollTop: $(".photo").offset().top}, 1000, 'swing');
   });
-    $("#right_nav_projects a").on("click", function(){
+    $("#right_nav_projects a").click(function(){
     $('body').animate({
       scrollTop: $(".photo1").offset().top}, 1000, 'swing');
   });
-      $("#right_nav_contact a").on("click", function(){
+      $("#right_nav_contact a").click(function(){
     $('body').animate({
       scrollTop: $(".photo2").offset().top}, 1000, 'swing');
   });
@@ -48,4 +48,7 @@ $(document).ready(function(){
     }
   })
 
+  $("#left_nav").click(function(){
+    location.reload();
+  })
 });
