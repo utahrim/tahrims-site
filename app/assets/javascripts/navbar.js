@@ -47,4 +47,8 @@ $(document).ready(function(){
       $("#right_nav_contact").removeClass("active")
     }
   })
+
+  $("#left_nav").click(function(){
+    location.reload();
+  })
 });

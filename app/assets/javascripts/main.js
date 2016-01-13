@@ -37,12 +37,20 @@ $(document).ready(function(){
     };
   })
 
-// $(".about_me").flipping_text({
-//     tickerTime: 7, // Define a time between each ticket in milliseconds. The default value is 10.
-//     customRandomChar: false, // You can use your own random strings by defining them here. The default value is false which will use my random string: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
-//     tickerCount: 5, // Set the number of characters randomly shown before the real text is shown here. The default value is 10.
-//     opacityEffect: true, // You can toggle the opacity effect here. Set this to false if you don't want the random text to fade in. The default value is 10.
-//     resetOnChange: true // Toggle this to true if you want the plugin to stop and fill in all the text immediately when the user changes browser's tab. The default value is false.
-//   });
+  $(".about_me").hide();
+
+  $(".grid").one("click", function(){
+    $('body').animate({scrollTop: $(".photo").offset().top}, 1000, 'swing');
+    $(".grid").animate({marginTop: "-=6em", marginLeft: "-=10em"});
+    $(".ot-letter-left").animate({fontSize: "2em", marginTop: "+=2.5em"});
+    $(".about_me").show();
+    $(".about_me").flipping_text({
+      tickerTime: 7,
+      customRandomChar: false,
+      tickerCount: 5,
+      resetOnChange: true
+    });
+  });
+
 
 });

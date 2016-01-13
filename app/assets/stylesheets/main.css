@@ -33,3 +33,22 @@
   background-size: cover;
   background-repeat: no-repeat; 
 }
+
+.juke {
+  height: 20em;
+  background: rgba(25, 25, 25, .5);
+  width: 20em;
+  margin-left: -10em;
+  margin-top: -5em;
+}
+
+.juke_image {
+  opacity: 0.4;
+  height: 9em;
+  margin-left: 1em;
+  margin-top: 3em;
+}
+
+.juke_image:hover {
+  opacity: 1;
+}
