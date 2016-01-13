@@ -35,11 +35,12 @@
 }
 
 .juke {
+  padding: 4em;
   height: 20em;
   background: rgba(25, 25, 25, .5);
   width: 20em;
-  margin-left: -10em;
-  margin-top: -5em;
+  margin-left: -11em;
+  margin-top: -9em;
 }
 
 .juke_image {
@@ -50,5 +51,25 @@
 }
 
 .juke_image:hover {
+  opacity: 1;
+}
+
+.nycycle {
+  padding: 4em;
+  height: 20em;
+  background: rgba(25, 25, 25, .5);
+  width: 20em;
+  margin-left: 39em;
+  margin-top: -28em;
+}
+
+.nycycle_image {
+  opacity: 0.4;
+  height: 9em;
+  margin-left: 1em;
+  margin-top: 3em;
+}
+
+.nycycle_image:hover {
   opacity: 1;
 }
