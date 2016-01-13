@@ -51,6 +51,8 @@
 }
 
 .social_contact {
+  margin-top: 10%;
+  margin-left: 20%;
   display: inline-flex;
   padding-top: 3%;
   list-style-type: none;
