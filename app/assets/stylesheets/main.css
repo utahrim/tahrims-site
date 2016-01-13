@@ -42,8 +42,8 @@
   height: 25em;
   background: rgba(25, 25, 25, .5);
   width: 15em;
-  margin-left: -11em;
-  margin-top: -9em;
+  margin-left: -18%;
+  margin-top: -15%;
 }
 
 .juke_image {
@@ -73,11 +73,12 @@
   height: 25em;
   background: rgba(25, 25, 25, .5);
   width: 15em;
-  margin-left: 50em;
-  margin-top: -33em;
+  margin-left: 82%;
+  margin-top: -53.5%;
 }
 
 .nycycle_image {
+  position: relative;
   opacity: 0.4;
   height: 9em;
   margin-left: -2em;
